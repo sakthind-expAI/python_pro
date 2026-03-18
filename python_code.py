@@ -32,7 +32,7 @@ def get_xml_counts(url):
 
 def regex_examples():
     """Demonstrate regular expression usage."""
-    x = 'My 2 favorite nos are 19 and 42'
+    x = 'My 2 favorite nos are 19 and 42 '
     y = re.findall(r'[0-9]+', x)
     print(y)
     y = re.findall(r'[AEIOU]+', x)
